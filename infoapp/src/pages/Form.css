@@ -1,0 +1,90 @@
+body {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  button {
+    background: #0563b4 !important;
+  }
+  p {
+    color: red;
+  }
+
+
+  input[type="text"], form input[type="email"], form input[type="date"], form input[type="password"] {
+    width: 100%;
+    padding: 8px 10px 9px 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+form input[type="text"]:hover, form input[type="email"]:hover, form input[type="password"]:hover {
+    background: #fafafa;
+}
+form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"]:focus {
+    -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid #f5ba1a;
+    background: #fafafa;
+}
+form button {
+    background: #f5ba1a;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+form button:hover {
+    background: #e1a70a;
+}
+form button:focus {
+    background: #e1a70a;
+}
+.success-msg{
+  color: green;
+}
+
+
